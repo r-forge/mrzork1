@@ -45,14 +45,12 @@ Camilo Alberto Herrera Rozo  \email{ hr.camilo@hrglobalideas.com}
 %% ~~objects to See Also as \code{\link{help}}, ~~~
 }
 \examples{
-##---- Should be DIRECTLY executable !! ----
-##-- ==>  Define data, use random,
-##--	or do  help(data=index)  for the standard data sets.
-% se genera un objetos de la clase (NeuroSpatCo)
+
+# se genera un objetos de la clase (NeuroSpatCo)
 Carpetas<-read.folder()
-% se hace uso de la funcion distClust
+# se hace uso de la funcion distClust
 distancias<-distClust(Carpetas,0)
-%se recortan los datos segun criterio del experto
+#se recortan los datos segun criterio del experto
 recortados<-trimExt(distancias,0.10)
 
 }
