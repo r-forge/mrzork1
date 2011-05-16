@@ -15,8 +15,10 @@ function(Carpeta,Grafica){
       if(clusters==1){clusters<-3}
       if(clusters==2){clusters<-3}
       ms[i]<-clusters
-      .cluster <- Rcmdr::KMeans(model.matrix(~-1 + dates$centroidex, dates), centers = clusters,iter.max = 10, num.seeds = 100)
-      dates$KMeans <- Rcmdr::assignCluster(model.matrix(~-1 + dates$centroidex, dates), dates, .cluster$cluster)
+#Rcmdr::
+      .cluster <- KMeans(model.matrix(~-1 + dates$centroidex, dates), centers = clusters,iter.max = 10, num.seeds = 100)
+#Rcmdr::
+      dates$KMeans <- assignCluster(model.matrix(~-1 + dates$centroidex, dates), dates, .cluster$cluster)
       centroidesclust<-.cluster$centers
       remove(.cluster,clusters)
       a<-sort(centroidesclust)
