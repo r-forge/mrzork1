@@ -35,7 +35,4 @@ KMeans(x, centers, iter.max=10, num.seeds=10)
 
 \seealso{\code{\link[stats]{kmeans}}}
 
-\examples{
-
-}
 \keyword{misc}

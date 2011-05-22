@@ -1,6 +1,5 @@
 \name{KernWallis}
 \alias{KernWallis}
-%- Also NEED an '\alias' for EACH other topic documented here.
 \title{
 KernWallis
 }
@@ -10,7 +9,6 @@ Realiza el test de Kruskal-Wallis y su prueba post, ademas genera graficas de Ke
 \usage{
 KernWallis(recortados, Kern = FALSE)
 }
-%- maybe also 'usage' for other objects documented here.
 \arguments{
   \item{recortados}{
 Variable que contiene los datos a comparar preferiblemente despues de haber sido recortados.
@@ -19,33 +17,22 @@ Variable que contiene los datos a comparar preferiblemente despues de haber sido
 default=FALSE, si Kern=TRUE se realizara la grafica de Kernels conjunta de todas las distribuciones de datos a evaluar.
 }
 }
-\details{
-%%  ~~ If necessary, more details than the description above ~~
-}
+
 \value{
-%%  ~Describe the value returned
-%%  If it is a LIST, use
 \item{[1]}{contiene el resultado del test de Kruskal-Wallis}
 \item{[2]}{contiene el resultado del test post Kruskal-wallis que sera la guia para saber entre que grupos existen diferencias}
-%% ...
 }
 \references{
-%% ~put references to the literature/web site here ~
+Bowman, A.W. and Azzalini, A. (1997). Applied Smoothing Techniques for Data Analysis: the Kernel Approach with S-Plus Illustrations. Oxford University Press, Oxford.
+Myles Hollander and Douglas A. Wolfe (1973), Nonparametric Statistical Methods. New York: John Wiley & Sons. Pages 115–120.
+Siegel and Castellan (1988) Non parametric statistics for the behavioural sciences. MacGraw Hill Int., New York. pp 213-214
 }
 \author{
 Camilo Alberto Herrera Rozo  \email{ hr.camilo@hrglobalideas.com}
 }
-\note{
-%%  ~~further notes~~
-}
 
-%% ~Make other sections like Warning with \section{Warning }{....} ~
-
-\seealso{
-%% ~~objects to See Also as \code{\link{help}}, ~~~
-}
 \examples{
-
+%% nada
 # se genera un objetos de la clase (NeuroSpatCo)
 Carpetas<-read.folder()
 # se hace uso de la funcion distClust
@@ -54,9 +41,7 @@ distancias<-distClust(Carpetas,0)
 recortados<-trimExt(distancias,0.10)
 #No se realizan las graficas de kernels y el test se guarda en una variable Resultados
 Resultados<-KernWallis(recortados, Kern = FALSE)
-  
 }
-% Add one or more standard keywords, see file 'KEYWORDS' in the
-% R documentation directory.
+
 \keyword{ ~kwd1 }
 \keyword{ ~kwd2 }% __ONLY ONE__ keyword per line

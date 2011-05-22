@@ -37,8 +37,5 @@ assignCluster(clusterData, origData, clusterVec)
 \seealso{\code{\link[stats]{hclust}}, \code{\link[stats]{cutree}}, \code{\link[stats]{kmeans}}, 
 \code{\link{KMeans}}}
 
-\examples{
-
-}
 \keyword{misc}
 
