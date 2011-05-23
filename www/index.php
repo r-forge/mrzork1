@@ -1,4 +1,4 @@
-
+a
 <!-- This is the project specific website template -->
 <!-- It can be changed as liked or replaced by other content -->
 
@@ -44,9 +44,9 @@ echo $contents; } ?>
 <!-- end of project description -->
 <h4>Downloads:</h4> 
 <table summary="Package NeuroSpatCo downloads"> 
-<tr> <td valign="top"> Package source: </td> <td> <a href="https://r-forge.r-project.org/src/contrib/NeuroSpatCo_1.1.1.tar.gz"> NeuroSpatCo_1.1.1.tar.gz </a> </td> </tr> 
-<tr> <td valign="top"> MacOS X binary: </td> <td> <a href="https://r-forge.r-project.org/bin/macosx/leopard/contrib/latest/NeuroSpatCo_1.1.1.tgz"> NeuroSpatCo_1.1.1.tgz </a> </td> </tr> 
-<tr> <td valign="top"> Windows binary: </td> <td> <a href="https://r-forge.r-project.org/bin/windows/contrib/latest/NeuroSpatCo_1.1.1.zip"> NeuroSpatCo_1.1.1.zip </a> </td> </tr> 
+<tr> <td valign="top"> Package source: </td> <td> <a href="https://r-forge.r-project.org/src/contrib/NeuroSpatCo_2.0.tar.gz"> NeuroSpatCo_2.0.tar.gz </a> </td> </tr> 
+<tr> <td valign="top"> MacOS X binary: </td> <td> <a href="https://r-forge.r-project.org/bin/macosx/leopard/contrib/latest/NeuroSpatCo_2.0.tgz"> NeuroSpatCo_2.0.tgz </a> </td> </tr> 
+<tr> <td valign="top"> Windows binary: </td> <td> <a href="https://r-forge.r-project.org/bin/windows/contrib/latest/NeuroSpatCo_2.0.zip"> NeuroSpatCo_2.0.zip </a> </td> </tr> 
 
 
 <tr> <td valign="top"> Reference manual: </td> <td> <a href="NeuroSpatCo-manual.pdf"> NeuroSpatCo-manual.pdf </a> </td> </tr>
