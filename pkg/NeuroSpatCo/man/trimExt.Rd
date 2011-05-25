@@ -22,11 +22,11 @@ porcentaje de recorte tanto superior como inferior.
 Camilo Alberto Herrera Rozo  \email{ hr.camilo@hrglobalideas.com}
 }
 \examples{
-# se genera un objetos de la clase (NeuroSpatCo)
+# Se genera un objetos de la clase (NeuroSpatCo)
 Carpetas<-read.folder()
-# se hace uso de la funcion distClust
+# Se hace uso de la funcion distClust
 distancias<-distClust(Carpetas,0)
-#se recortan los datos segun criterio del experto
+# Se recortan los datos segun criterio del experto
 recortados<-trimExt(distancias,0.10)
 }
 

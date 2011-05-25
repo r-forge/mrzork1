@@ -10,14 +10,11 @@ lee carpetas enteras de datos en archivos .txt con el formato establecido (centr
 read.folder()
 }
 \details{
-Esta funcion sirve para leer los datos tanto de las imagenes de corte horizontal como las imagenes de corte vertical.
+Esta función sirve para leer los datos tanto de las imágenes de corte horizontal como las imágenes de corte vertical.
 }
-
-
 \author{
 Camilo Alberto Herrera Rozo  \email{ hr.camilo@hrglobalideas.com}
 }
-
 \examples{
 Carpetas<-read.folder()
 }
