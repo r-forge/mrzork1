@@ -2,7 +2,7 @@ Package: NeuroSpatCo
 Type: Package
 Title: Busqueda de patrones organizacionales en corteza cerebral humana
 Version: 2.0
-Date: 2011-04-16
+Date: 2011-05-24
 Author: Camilo A Herrera R <hr.camilo@hrglobalideas.com>
 Maintainer: Camilo A Herrera R <hr.camilo@hrglobalideas.com>
 Depends: R (>= 2.10), tcltk, cluster, sm, stats, pgirmess, spatstat, fitdistrplus, rgl, MASS
