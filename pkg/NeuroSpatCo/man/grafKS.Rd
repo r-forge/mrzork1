@@ -1,19 +1,19 @@
 \name{grafKS}
 \alias{grafKS}
 \title{
-Graficas test de aleatoriedad completa grafKS(Carpeta, Kest = TRUE, Lest = FALSE, density = FALSE)
+Graficas test de aleatoriedad completa grafKS(Carpeta, Kesti = TRUE, Lest = FALSE, density = FALSE)
 }
 \description{
 Esta función realiza las gráficas del test de aleatoriedad completa las cuales son la guía para el análisis de patrones de organización en casos en los que se evalúa la existencia de patrones puntuales.
 }
 \usage{
-grafKS(Carpeta, Kest = TRUE, Lest = FALSE, density = FALSE)
+grafKS(Carpeta, Kesti = TRUE, Lest = FALSE, density = FALSE)
 }
 \arguments{
   \item{Carpeta}{
 Entrada de datos, variables de la clase NeuroSpatCo.
 }
-  \item{Kest}{
+  \item{Kesti}{
 si Kest=TRUE se grafícan las funciones de aleatoriedad completa K de ripley.
 }
   \item{Lest}{
@@ -47,7 +47,7 @@ Camilo Alberto Herrera Rozo  \email{ hr.camilo@hrglobalideas.com}
 ## se genera un objetos de la clase (NeuroSpatCo)
 #Carpetas<-read.folder()
 ##se realiza una de las gráficas (K_ripley) para cada patrón puntual
-#grafKS(Carpetas, Kest = TRUE, Lest = FALSE, density = FALSE)
+#grafKS(Carpetas, Kesti = TRUE, Lest = FALSE, density = FALSE)
 ##el resultado queda consignado en la carpeta de lectura de datos inicial.
 }
 
