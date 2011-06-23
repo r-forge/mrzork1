@@ -12,8 +12,8 @@ function(recortados,horizontales,zonaA=1,zonaB=1,grabar=FALSE){
   fb<-fitdist(dato1inv,"beta")
   a<-fb$estimate[1]
   b<-fb$estimate[2]
-  x<-c(puntos[[1]][[1]],puntos[[2]][[1]],puntos[[3]][[1]])
-  y<-c(puntos[[1]][[2]],puntos[[2]][[2]],puntos[[3]][[2]])
+  x<-c(puntos[[3]][[1]],puntos[[4]][[1]],puntos[[5]][[1]])
+  y<-c(puntos[[3]][[2]],puntos[[4]][[2]],puntos[[5]][[2]])
   z<-c(runif((length(x)),0,20))
   gen<-function(){
     distcol<-(1/rbeta(10,a,b))*3.6
