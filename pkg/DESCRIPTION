@@ -1,0 +1,10 @@
+Package: LeerFotos
+Type: Package
+Title: Extrae la informacion de los metadatos de imagenes .jpg
+Version: 1.0
+Date: 2011-07-13
+Author: Camilo A Herrera Rozo
+Maintainer: Camilo A Herrera Rozo  to <hr.camilo@gmail.com>
+Description: lee un grupo de imagenes y extrae la información de metadatos contenida en ella.
+License: GPL(>=2.0)
+LazyLoad: yes
